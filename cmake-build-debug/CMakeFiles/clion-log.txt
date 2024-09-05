@@ -1,0 +1,23 @@
+"D:\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S D:\Workspace\CLion_project\private-node-master -B D:\Workspace\CLion_project\private-node-master\cmake-build-debug
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/CLion 2022.2.4/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ZLIB: D:/Anaconda/Library/lib/z.lib (found version "1.2.12") 
+CMake Error at proto/CMakeLists.txt:2 (find_package):
+  Could not find a package configuration file provided by "gRPC" with any of
+  the following names:
+
+    gRPCConfig.cmake
+    grpc-config.cmake
+
+  Add the installation prefix of "gRPC" to CMAKE_PREFIX_PATH or set
+  "gRPC_DIR" to a directory containing one of the above files.  If "gRPC"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/Workspace/CLion_project/private-node-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".
